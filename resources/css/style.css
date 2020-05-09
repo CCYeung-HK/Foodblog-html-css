@@ -61,5 +61,30 @@ nav {
     height: 80px;
     position: fixed;
     width: 100%;
-    color:
+    color: #FBFBFC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #282b37;
 }
+
+nav .link {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 15px;
+}
+
+nav button {
+    background-color: #ec2768;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
