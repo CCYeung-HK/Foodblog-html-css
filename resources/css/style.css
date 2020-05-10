@@ -38,7 +38,7 @@ h4 {
 }
 
 .description {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgb(75, 1, 73);
     color: white;
     width: 100%;
     margin: 0;
@@ -52,7 +52,7 @@ section.menu {
 }
 
 nav {
-    background-color: #0b0d17;
+    background-color: rgb(75, 1, 73);
 }
 
 /* navigation */
@@ -61,5 +61,150 @@ nav {
     height: 80px;
     position: fixed;
     width: 100%;
-    color:
+    color: #FBFBFC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(75, 1, 73);
+}
+
+nav .link {
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 15px;
+}
+
+nav button {
+    background-color: #ec2768;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+/* header */
+
+header {
+    background-image: url(../images/intro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+header h1 {
+    max-width: 800px;
+    margin: 60px;
+}
+
+/* recipes */
+
+.recipe-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.recipe {
+    width: 300px;
+    min-height: 300px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#matcha-crepe {
+    background-image: url("../images/matcha_crepe.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#chick-alfredo {
+    background-image: url("../images/chicken_alfredo.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#fried-chick {
+    background-image: url("../images/fried_chick.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+/* Team */
+
+.team h2 {
+    margin: 0 16px;
+}
+
+.teammates {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teammate {
+    width: 250px;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+#derek {
+    background-image: url("../images/derek.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#chloe {
+    background-image: url("../images/chloe.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#chris {
+    background-image: url("../images/chris.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* insta icon */
+
+.instagram p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.instagram img {
+    width: 5%;
+}
+
+/* Media */
+
+@media only screen and (max-width: 768px) {
+    .links a {
+        display: none;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
 }
